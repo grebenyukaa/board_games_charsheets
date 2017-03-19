@@ -6,7 +6,7 @@ VERSION:6.06.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
-PREVIEWSHEET:preview.html
+PREVIEWSHEET:Spellbook.htm
 POOLPOINTS:0
 POOLPOINTSAVAIL:-1
 GAMEMODE:Pathfinder_RPG
@@ -59,7 +59,7 @@ ALIGN:NG
 RACE:Elf
 
 # Character Class(es)
-CLASS:Wizard|SUBCLASS:Evoker|LEVEL:8|SKILLPOOL:0
+CLASS:Wizard|SUBCLASS:Evoker|LEVEL:9|SKILLPOOL:0
 CLASSABILITIESLEVEL:Wizard=1|HITPOINTS:4|SPECIALTIES:[SPECIALTY:Evocation]|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=2|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=3|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
@@ -68,9 +68,10 @@ CLASSABILITIESLEVEL:Wizard=5|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=6|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=7|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=8|HITPOINTS:4|PRESTAT:INT=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=9|HITPOINTS:2|SKILLSGAINED:7|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:51000
+EXPERIENCE:75000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -118,19 +119,19 @@ SKILL:Intimidate|OUTPUTORDER:30|
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
-SKILL:Knowledge (Arcana)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Wizard|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Engineering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Geography)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (History)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Wizard|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (History)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Local)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Nature)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Wizard|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Nobility)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Planes)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Planes)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Wizard|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Religion)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:44|
-SKILL:Linguistics|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Wizard|RANKS:3.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Orc|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Read Lips
-SKILL:Perception|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Wizard|RANKS:8.0|COST:1|CLASSSKILL:N]
+SKILL:Linguistics|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Wizard|RANKS:5.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Orc|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Read Lips|ASSOCIATEDDATA:Drow|ASSOCIATEDDATA:Necril
+SKILL:Perception|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Wizard|RANKS:9.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:48|
 SKILL:Profession (Untrained)|OUTPUTORDER:50|
 SKILL:Ride|OUTPUTORDER:51|
@@ -138,7 +139,7 @@ SKILL:Samurai Mount|OUTPUTORDER:52|
 SKILL:Sense Motive|OUTPUTORDER:53|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:54|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:55|
-SKILL:Spellcraft|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Wizard|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Wizard|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:59|
 SKILL:Survival|OUTPUTORDER:60|
 SKILL:Survival (Follow tracks)|OUTPUTORDER:61|
@@ -152,11 +153,11 @@ SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:46|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:56|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:57|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:58|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:68|
 
 # Character Languages
-LANGUAGE:Abyssal|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Gnome|LANGUAGE:Goblin|LANGUAGE:Kelish|LANGUAGE:Orc|LANGUAGE:Read Lips|LANGUAGE:Shadowtongue|LANGUAGE:Sylvan
+LANGUAGE:Abyssal|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Drow|LANGUAGE:Elven|LANGUAGE:Gnome|LANGUAGE:Goblin|LANGUAGE:Kelish|LANGUAGE:Necril|LANGUAGE:Orc|LANGUAGE:Read Lips|LANGUAGE:Shadowtongue|LANGUAGE:Sylvan
 
 # Character Feats
 FEATPOOL:0.0
@@ -181,16 +182,16 @@ ABILITY:Elf Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subty
 USERPOOL:Elf Racial Subtype|POOLPOINTS:0.0
 ABILITY:Elf Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Elf ~ Arcane Focus|TYPE:RacialTraits.SpecialQuality.Extraordinary.ElfRacialTrait.ElfWeaponFamiliarity|DESC:Some elven families have such long traditions of producing wizards (and other arcane spellcasters) that they raise their children with the assumption each is destined to be a powerful magic user, with little need for mundane concerns such as skill with weapons. Elves with this racial trait gain a +2 racial bonus on concentration checks made to cast arcane spells defensively.
 USERPOOL:Elf Racial Trait|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Augment Summoning|TYPE:General.AbyssalBloodline|DESC:Your summoned creatures are more powerful and robust than most.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.AberrantBloodragerBloodline.ArcaneBloodragerBloodline.CelestialBloodragerBloodline.DestinedBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.FeyBloodragerBloodline.ImperiousBloodline.KoboldBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.OniBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Conjuration|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Conjuration,Transmutation|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Penetration|TYPE:General.InfernalBloodline.DragonShamanBonus|DESC:Your spells break through spell resistance more easily than most.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Varisian Tattoo|TYPE:General|DESC:You bear intricate tattoos of the ancient traditions of Varisian magic that inspire and empower your natural magic ability. Gain a cantrip as a spell-like ability.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Familiar Alertness Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Familiar Alertness Choice ~ Alertness active|TYPE:FamiliarAlertnessChoice.SpecialQuality.Extraordinary|DESC:PC has a familiar that has the Alertness (Ex) ability and it is within arms' reach, the master gains the Alertness feat.
 USERPOOL:Familiar Alertness Choice|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Wizard|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Headband of Intellect Skill Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Headband of Intellect Skill Selection|APPLIEDTO:Spellcraft,Perception|TYPE:HeadbandSkill
 USERPOOL:Headband of Intellect Skill Choice|POOLPOINTS:0.0
@@ -220,17 +221,21 @@ ABILITY:Society ID|TYPE:NORMAL|CATEGORY:Internal|KEY:PFS Character ID|APPLIEDTO:
 USERPOOL:Society ID|POOLPOINTS:0.0
 ABILITY:Spell Focus Replacement|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Evocation|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
 USERPOOL:Spell Focus Replacement|POOLPOINTS:0.0
+ABILITY:Split Slot|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Split 5th to 2 3rd|TYPE:Internal.SplitSlotChoice
+USERPOOL:Split Slot|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Focused Mind|TYPE:Trait.BasicTrait.MagicTrait|DESC:Your childhood was either dominated by lessons of some sort (be they musical or academic) or by a horrible home life that encouraged your ability to block out distractions to focus on the immediate task at hand. You gain a +2 trait bonus on concentration checks.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
 USERPOOL:Traits|POOLPOINTS:0.0
-ABILITY:Wizard Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Bouncing Spell|TYPE:Metamagic|DESC:You can direct a failed spell against a different target.
+ABILITY:Varisian Tattoo Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Varisian Tattoo ~ Ragario|TYPE:SpecialQuality.VarisianTattoo.PFSLegal|DESC:You cast spells from the evocation school at +1 caster level. Additionally, you gain dancing lights as a spell-like ability usable 3/day.
+USERPOOL:Varisian Tattoo Choice|POOLPOINTS:0.0
+ABILITY:Wizard Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Discovery (Split Slot)|APPLIEDTO:|TYPE:Discovery.WizardBonus|DESC:You may treat an open spell slot as if it were two spell slots that were two levels lower.
 USERPOOL:Wizard Bonus Feat|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Grapple|WEAPON:Quarterstaff|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Unarmed Strike]
 
 # Character Equipment
-MONEY:44.50
+MONEY:157.50
 EQUIPNAME:Bolts (Crossbow/10)|OUTPUTORDER:8|COST:1.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolts (Crossbow/10)|DATA:NAME=Bolts (Crossbow/10)$EQMOD=STEEL.WOOD]
 EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:4|COST:4000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +2|DATA:NAME=Cloak of Resistance +2$EQMOD=CLOTH]
 EQUIPNAME:Crossbow (Light)|OUTPUTORDER:2|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow (Light)$EQMOD=WOOD]
@@ -246,9 +251,10 @@ EQUIPNAME:Ioun Stone (Tourmaline Sphere)|OUTPUTORDER:44|COST:1000|WT:0.0|QUANTIT
 EQUIPNAME:Ioun Stone (Vermilion Rhomboid - Cracked)|OUTPUTORDER:49|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Outfit (Cold-Weather)|OUTPUTORDER:4|COST:0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Cold-Weather)|DATA:NAME=Outfit (Cold-Weather)$COSTMOD=-8]
 EQUIPNAME:Pathfinder Chronicle (+2 Knowledge (Arcana))|OUTPUTORDER:42|COST:50|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pathfinder Chronicle|DATA:NAME=Pathfinder Chronicle (+2 Knowledge (Arcana))$SPROP=(Pathfinder Chronicle +2 Knowledge (Arcana))]
-EQUIPNAME:PP Counter|OUTPUTORDER:0|COST:30.0|WT:0.0|QUANTITY:1.0|NOTE:PP Left|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=PP Counter$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Prestidigitation&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;0&rbracket; CASTERLEVEL&lbracket;1&rbracket;  CHARGES&lbracket;16&rbracket;$SPROP=PP, (Wand (Prestidigitation/Wizard/1st))$COSTMOD=-90.0]
+EQUIPNAME:PP Counter|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=PP Counter$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Prestidigitation&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;0&rbracket; CASTERLEVEL&lbracket;1&rbracket;  CHARGES&lbracket;6&rbracket;$SPROP=PP, (Wand (Prestidigitation/Wizard/1st))$COSTMOD=-90.0]
 EQUIPNAME:Quarterstaff|OUTPUTORDER:51|COST:0.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quarterstaff|DATA:NAME=Quarterstaff$EQMOD=WOOD$ALTEQMOD=WOOD]
 EQUIPNAME:Rod (Empower/Lesser)|OUTPUTORDER:10|COST:9000.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Empower/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Rod (Focused/Lesser)|OUTPUTORDER:0|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Focused/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
 EQUIPNAME:Rod (Piercing/Lesser)|OUTPUTORDER:11|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Piercing/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
 EQUIPNAME:Rod (Silent/Lesser)|OUTPUTORDER:12|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Silent/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
 EQUIPNAME:Rope (Hemp/10 ft/Rope)|OUTPUTORDER:38|COST:0.25|WT:1.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Hemp/50 ft)|DATA:NAME=Rope (Hemp/10 ft/Rope)$EQMOD=ROPE._WEIGHTADD&pipe;-9$SPROP=(Rope (Hemp/10 ft/Rope)), (Rope (Hemp/50 ft/Rope)), (Rope (Hemp/50 ft/Rope))$COSTMOD=-0.75]
@@ -266,7 +272,6 @@ EQUIPNAME:Scroll (Dimension Door)|OUTPUTORDER:18|COST:700|WT:0.01|QUANTITY:2.0|N
 EQUIPNAME:Scroll (Dispel Magic/Arcane)|OUTPUTORDER:23|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Feather Fall CL5)|OUTPUTORDER:27|COST:375.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll (Feather Fall)|DATA:NAME=Scroll (Feather Fall CL5)$SPROP=CL 5, (Scroll (Feather Fall)), (Scroll (Feather Fall))$COSTMOD=350.0]
 EQUIPNAME:Scroll (Feather Fall)|OUTPUTORDER:13|COST:25|WT:0.01|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scroll (Fly)|OUTPUTORDER:30|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Haste)|OUTPUTORDER:24|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Invisibility Sphere)|OUTPUTORDER:32|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Knock)|OUTPUTORDER:28|COST:150|WT:0.01|QUANTITY:2.0|NOTE:
@@ -274,7 +279,7 @@ EQUIPNAME:Scroll (Mirror Hideaway)|OUTPUTORDER:25|COST:150|WT:0.0|QUANTITY:2.0|N
 EQUIPNAME:Scroll (Mount Communal)|OUTPUTORDER:26|COST:150|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Mount Communal)$SPROP=(Scroll (Mount Communal))$COSTMOD=150]
 EQUIPNAME:Scroll (Phantasmal Killer)|OUTPUTORDER:15|COST:700|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Rope Trick)|OUTPUTORDER:22|COST:150|WT:0.01|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scroll (Spider Climb) (communal)|OUTPUTORDER:21|COST:375|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll (Spider Climb)|DATA:NAME=Scroll (Spider Climb) (communal)$SPROP=(Scroll (Spider Climb Communal))$COSTMOD=225]
+EQUIPNAME:Scroll (Spider Climb) (communal)|OUTPUTORDER:0|COST:375|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll (Spider Climb)|DATA:NAME=Scroll (Spider Climb) (communal)$SPROP=(Scroll (Spider Climb Communal))$COSTMOD=225]
 EQUIPNAME:Scroll (Stone Shape/Arcane)|OUTPUTORDER:19|COST:700|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Suggestion)|OUTPUTORDER:14|COST:375|WT:0.01|QUANTITY:2.0|NOTE:
 EQUIPNAME:Scroll (Unseen Servant)|OUTPUTORDER:39|COST:25|WT:0.01|QUANTITY:2.0|NOTE:
@@ -282,12 +287,13 @@ EQUIPNAME:Scroll (Vanish)|OUTPUTORDER:29|COST:25|WT:0.0|QUANTITY:2.0|NOTE:|CUSTO
 EQUIPNAME:Snapleaf (2 PP)|OUTPUTORDER:46|COST:0|WT:0.0|QUANTITY:1.0|NOTE:6 PP|CUSTOMIZATION:[BASEITEM:Snapleaf|DATA:NAME=Snapleaf (2 PP)$SPROP=2 PP, (Snapleaf)$COSTMOD=-750]
 EQUIPNAME:Spell Component Pouch|OUTPUTORDER:7|COST:5|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spell Component Pouch|DATA:NAME=Spell Component Pouch]
 EQUIPNAME:Spellbook (Wizard's/Blank)|OUTPUTORDER:9|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Wizard's/Blank)]
-EQUIPNAME:Total gold counter|OUTPUTORDER:16|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:50628|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Total gold counter$EQMOD=ADDTYPE&pipe;Gear$SPROP=(Wand (Gear))$COSTMOD=0.0]
+EQUIPNAME:Total gold counter|OUTPUTORDER:16|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:56126|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Total gold counter$EQMOD=ADDTYPE&pipe;Gear$SPROP=(Wand (Gear))$COSTMOD=0.0]
 EQUIPNAME:Wand (Decompose Corpse/Wizard/1st)|OUTPUTORDER:0|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Decompose Corpse/Wizard/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Decompose Corpse&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;2&rbracket; $COSTMOD=20.0]
 EQUIPNAME:Wand (Infernal Healing/Wizard/1st) (2 PP)|OUTPUTORDER:21|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Infernal Healing/Wizard/1st) (2 PP)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Infernal Healing&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket;  CHARGES&lbracket;27&rbracket;$SPROP=2 PP, (Wand (Infernal Healing/Wizard/1st))$COSTMOD=-750.0]
 EQUIPNAME:Wand (Restore Corpse/Wizard/1st)|OUTPUTORDER:0|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Restore Corpse/Wizard/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Restore Corpse&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;2&rbracket; $COSTMOD=20.0]
 EQUIPNAME:Wand of Color Spray (2 PP)|OUTPUTORDER:22|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Color Spray (2 PP)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Color Spray&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;41&rbracket;$SPROP=2 PP, (Wand (Color Spray//1st))$COSTMOD=-750.0]
 EQUIPNAME:Wand of Endure Elements|OUTPUTORDER:6|COST:0.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Endure Elements$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Endure Elements&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=2 PP$COSTMOD=-750.0]
+EQUIPNAME:Wand of Fly (Scroll x2 - 2 PP)|OUTPUTORDER:0|COST:0|WT:-0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Fly (Scroll x2 - 2 PP)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Fly&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;2&rbracket;._WEIGHTADD&pipe;-0,0625$SPROP=2 PP$COSTMOD=-11250.0]
 EQUIPNAME:Wand of Slow(2 PP)|OUTPUTORDER:12|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Slow(2 PP)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Slow&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;1&rbracket;$SPROP=2 PP, (Wand (Slow//5th))$COSTMOD=-11250.0]
 EQUIPNAME:Wand of Water Breathing|OUTPUTORDER:14|COST:0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Water Breathing$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Water Breathing&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;1&rbracket;$SPROP=2 PP$COSTMOD=-11250.0]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
@@ -309,7 +315,6 @@ EQUIPSET:Handy Haversack|ID:0.1.13.25|VALUE:Wand of Slow(2 PP)|QUANTITY:1.0|USET
 EQUIPSET:Handy Haversack|ID:0.1.13.28|VALUE:Scroll (Feather Fall)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.30|VALUE:Scroll (Suggestion)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.33|VALUE:Scroll (Phantasmal Killer)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.13.37|VALUE:PP Counter|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.41|VALUE:Total gold counter|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.42|VALUE:Wand (Infernal Healing/Wizard/1st) (2 PP)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.43|VALUE:Wand of Color Spray (2 PP)|QUANTITY:1.0|USETEMPMODS:Y
@@ -318,7 +323,6 @@ EQUIPSET:Handy Haversack|ID:0.1.13.47|VALUE:Scroll (Dimension Door)|QUANTITY:2.0
 EQUIPSET:Handy Haversack|ID:0.1.13.48|VALUE:Scroll (Stone Shape/Arcane)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.49|VALUE:Scroll (Babble)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.50|VALUE:Scroll|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.13.51|VALUE:Scroll (Spider Climb) (communal)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.52|VALUE:Scroll (Rope Trick)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.53|VALUE:Scroll (Dispel Magic/Arcane)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.54|VALUE:Scroll (Haste)|QUANTITY:1.0|USETEMPMODS:Y
@@ -329,7 +333,6 @@ EQUIPSET:Handy Haversack|ID:0.1.13.59|VALUE:Wand (Restore Corpse/Wizard/1st)|QUA
 EQUIPSET:Handy Haversack|ID:0.1.13.60|VALUE:Scroll (Feather Fall CL5)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.61|VALUE:Scroll (Knock)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.62|VALUE:Scroll (Vanish)|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.13.63|VALUE:Scroll (Fly)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.64|VALUE:Scroll (Detect Secret Doors)|QUANTITY:4.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.65|VALUE:Scroll (Invisibility Sphere)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.13.66|VALUE:Rope (Hemp/30 ft/Rope)|QUANTITY:5.0|USETEMPMODS:Y
@@ -368,6 +371,7 @@ SPELLBOOK:Prepared Spells|TYPE:2
 SPELLBOOK:Magic Item|TYPE:4
 SPELLNAME:Acid Splash|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Alarm|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Aqueous Orb|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Arcane Mark|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Black Tentacles|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Black Tentacles|TIMES:2|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
@@ -395,17 +399,25 @@ SPELLNAME:Fireball|TIMES:3|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE
 SPELLNAME:Flaming Sphere|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Flaming Sphere|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Flare|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Fly|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Fly|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Gaseous Form|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Ghost Sound|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Glitterdust|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
-SPELLNAME:Glitterdust|TIMES:3|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Glitterdust|TIMES:2|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Grease|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Haste|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Haunted Fey Aspect|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Hypnotic Pattern|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Icy Prison|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Icy Prison|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Infernal Healing|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Invisibility (Greater)|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Invisibility (Greater)|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Invisibility Sphere|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Invisibility Sphere|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Knock|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Knock|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Levitate|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Liberating Command|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Liberating Command|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
@@ -419,11 +431,14 @@ SPELLNAME:Mage Hand|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:0|SOURC
 SPELLNAME:Magic Aura (Greater)|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Magic Missile|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Magic Missile|TIMES:5|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Master's Escape|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Mending|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Message|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Mirror Image|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Mirror Image|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Open/Close|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Overland Flight|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Overland Flight|TIMES:1|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Phantasmal Killer|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Prestidigitation|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Protection from Arrows|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Wizard]
@@ -438,9 +453,12 @@ SPELLNAME:Shocking Grasp|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOU
 SPELLNAME:Slow|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Slow|TIMES:2|CLASS:Wizard|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Spark|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Stinking Cloud|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Summon Monster I|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Summon Monster III|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Summon Monster IV|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Summon Monster V|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Teleport|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Vanish|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Wizard]
 SPELLNAME:Wall of Ice|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Wizard]
 
@@ -456,6 +474,7 @@ CHARACTERDMNOTES:
 KIT:Wizard Spellbook
 
 # Character Master/Follower
+FOLLOWER:Faerthurin Lavannon Yridrennor (fluffy)|TYPE:Familiar|RACE:FAMILIAR (SCORPION (GREENSTING))|HITDICE:0|FILE:Faerthurin Lavannon Yidrennor (fluffy).pcg
 
 # Character Notes Tab
 

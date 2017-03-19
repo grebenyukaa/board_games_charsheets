@@ -1,0 +1,198 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder Society
+VERSION:6.06.01
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Faerthurin Lavannon Yridrennor (fluffy)
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:10
+STAT:INT|SCORE:1
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:TN
+RACE:Familiar (Scorpion (Greensting))
+
+# Character Class(es)
+CLASS:Vermin|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Vermin=1|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:0
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_2]
+TEMPLATESAPPLIED:[NAME:REACH_0]
+TEMPLATESAPPLIED:[NAME:Sting 1 (Tiny)]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Artistry|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:29|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:49|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Craft (Weapons)|OUTPUTORDER:13|
+SKILL:Diplomacy|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:17|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:18|
+SKILL:Disable Device|CLASSBOUGHT:[CLASS:Vermin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Disguise|OUTPUTORDER:20|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
+SKILL:Escape Artist|OUTPUTORDER:22|
+SKILL:Fly|OUTPUTORDER:23|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
+SKILL:Heal|OUTPUTORDER:28|
+SKILL:Intimidate|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:34|
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:35|
+SKILL:Knowledge (Engineering)|OUTPUTORDER:36|
+SKILL:Knowledge (Geography)|OUTPUTORDER:37|
+SKILL:Knowledge (History)|OUTPUTORDER:38|
+SKILL:Knowledge (Local)|OUTPUTORDER:39|
+SKILL:Knowledge (Nature)|OUTPUTORDER:40|
+SKILL:Knowledge (Nobility)|OUTPUTORDER:41|
+SKILL:Knowledge (Planes)|OUTPUTORDER:42|
+SKILL:Knowledge (Religion)|OUTPUTORDER:43|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:44|
+SKILL:Linguistics|OUTPUTORDER:45||ASSOCIATEDDATA:Aquan|ASSOCIATEDDATA:Auran|ASSOCIATEDDATA:Common|ASSOCIATEDDATA:Ignan|ASSOCIATEDDATA:Terran
+SKILL:Perception|OUTPUTORDER:47|
+SKILL:Perform (Untrained)|OUTPUTORDER:48|
+SKILL:Profession (Untrained)|OUTPUTORDER:50|
+SKILL:Ride|OUTPUTORDER:51|
+SKILL:Samurai Mount|OUTPUTORDER:52|
+SKILL:Sense Motive|OUTPUTORDER:53|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:54|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:55|
+SKILL:Spellcraft|OUTPUTORDER:57|
+SKILL:Stealth|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Vermin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Survival|OUTPUTORDER:60|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:61|
+SKILL:Swim|OUTPUTORDER:62|
+SKILL:Untrained Charisma|OUTPUTORDER:63|
+SKILL:Untrained Dexterity|OUTPUTORDER:64|
+SKILL:Untrained Intelligence|OUTPUTORDER:65|
+SKILL:Untrained Strength|OUTPUTORDER:66|
+SKILL:Untrained Wisdom|OUTPUTORDER:67|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:46|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:56|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:58|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:68|
+
+# Character Languages
+LANGUAGE:Aquan|LANGUAGE:Auran|LANGUAGE:Common|LANGUAGE:Ignan|LANGUAGE:Terran
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Sting]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Sting (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sting|DATA:KEY=Sting]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Sting (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Familiar ~ Scorpion (Greensting)
+
+# Character Master/Follower
+MASTER:Emlinor|TYPE:Familiar|HITDICE:0|FILE:Emlinor.pcg|ADJUSTMENT:0
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
