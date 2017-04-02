@@ -1,0 +1,78 @@
+1					
+!Open slot 1	Universal			V	NOT A SPELL. A workaround for pcgen to mark open slots.
+Alarm	Abjuration			V, S, F/DF	Alarm creates a subtle ward on an area you select.
+Bungle	Enchantment	Compulsion		V, S	Target takes a -20 penalty on its next attack roll or check.
+Burning Hands	Evocation, FireSchool		Fire	V, S	A cone of searing flame shoots from your fingertips dealing (min(5,CASTERLEVEL))d4 points of fire damage to any creature in the effect area.
+Charm Person	Enchantment	Charm	Mind-Affecting, WoodSchool	V, S	This charm makes a humanoid creature regard you as its trusted friend and ally.
+Color Spray	Illusion	Pattern	Mind-Affecting	V, S, M	A vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned, perhaps also blinded, and possibly knocking them unconscious.
+Deja Vu	Enchantment			V	...
+Detect Secret Doors	Divination			V, S	You can detect secret doors, compartments, caches, and so forth.
+Endure Elements	Abjuration			V, S	A creature protected by endure elements suffers no harm from being in a hot or cold environment.
+Erase	Transmutation			V, S	Erase removes writings of either magical or mundane nature from a scroll or from one or two pages of paper, parchment, or similar surfaces.
+Feather Fall	Transmutation, AirSchool			V	The affected creatures or objects fall slowly.
+Grease	Conjuration, EarthSchool	Creation		V, S, M	A grease spell covers a solid surface with a layer of slippery grease.
+Infernal Healing	Conjuration	Healing	Evil	V, S, M	Anoint a wounded creature with devil's blood or unholy water giving it fast healing 1. Does not repair silver or good damage. Target detects as evil for the duration.
+Liberating Command	Transmutation			V	Target makes an Escape Artist check as an immediate action and gains a bonus on it.
+Lucky number	Transmutation			V,S	...
+Mage Armor	Conjuration	Creation	Force	V, S, F	An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.
+Magic Missile	Evocation		Force	V, S	(min((CASTERLEVEL+1)/2,5)) missiles that do 1d4+1 damage each.
+Reduce Person	Transmutation			V, S, M	This spell causes instant diminution of a humanoid creature, halving its height, length, and width and dividing its weight by 8.
+Shield	Abjuration, VoidElementalSchool		Force	V, S	Shield creates an invisible shield of force that hovers in front of you.
+Shocking Grasp	Evocation, AirSchool		Electricity, MetalSchool	V, S	Your successful melee touch attack deals (min(5,CASTERLEVEL))d6 points of electricity damage.
+Summon Monster I	Conjuration	Summoning		V, S, F/DF	This spell summons an extraplanar creature.
+Vanish	Illusion	Glamer		V, S	This spell functions like invisibility. Like invisibility, the spell immediately ends if the subject attacks any creature.
+2					
+!Open slot 2	Universal			V	NOT A SPELL. A workaround for pcgen to mark open slots.
+False Life	Necromancy			V, S, M	You harness the power of unlife to grant yourself a limited ability to avoid death.
+Flaming Sphere	Evocation, FireSchool		Fire	V, S, M/DF	A burning globe of fire rolls in whichever direction you point and burns those it strikes.
+Glitterdust	Conjuration, EarthSchool	Creation	MetalSchool	V, S, M (ground mica)	A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell.
+Hypnotic Pattern	Illusion	Pattern	Mind-Affecting	V, S, M	A twisting pattern of subtle, shifting colors weaves through the air, fascinating creatures within it.
+Knock	Transmutation			V	Knock opens stuck, barred, or locked doors, as well as those subject to hold portal or arcane lock.
+Levitate	Transmutation, AirSchool			V, S, F	Levitate allows you to move yourself, another creature, or an object up and down as you wish.
+Mirror Image	Illusion	Figment		V, S	This spell creates a number of illusory doubles of you that inhabit your square.
+Protection from Arrows	Abjuration		WoodSchool	V, S, F	The warded creature gains resistance to ranged weapons.
+Rope Trick	Transmutation			V, S, M	When this spell is cast upon a piece of rope from 5 to 30 feet ,long, one end of the rope rises into the air until the whole rope hangs perpendicular to the ground, as if affixed at the upper end.
+3					
+!Open slot 3	Universal			V	NOT A SPELL. A workaround for pcgen to mark open slots.
+Aqueous Orb	Conjuration, WaterSchool	Creation	Water	V, S, M	Creates rolling sphere of water.
+Babble	Enchantment			V,S	...
+Cleromancy	Divination			V,S,F/DF	...
+Dispel Magic	Abjuration, VoidElementalSchool			V, S	You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell.
+Fireball	Evocation, FireSchool		Fire	V, S, M	A fireball spell generates a searing explosion of flame that detonates with a low roar and deals (min(10,CASTERLEVEL))d6 points of fire damage to every creature within the area.
+Fly	Transmutation, AirSchool			V, S, F	The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).
+Gaseous Form	Transmutation, AirSchool			S, M/DF	The subject and all its gear become insubstantial, misty, and translucent.
+Haste	Transmutation			V, S, M	The transmuted creatures move and act more quickly than normal.
+Invisibility Sphere	Illusion	Glamer		V, S, M	This spell functions like invisibility, except that this spell confers invisibility upon all creatures within 10 feet of the recipient at the time the spell is cast. The center of the effect is mobile with the recipient.
+Lightning Bolt	Evocation, AirSchool		Electricity, MetalSchool	V, S, M	You release a powerful stroke of electrical energy that deals (min(10,CASTERLEVEL))d6 points of electricity damage to each creature within its area.
+Slow	Transmutation			V, S, M	An affected creature moves and attacks at a drastically slowed rate.
+Spiked Pit	Conjuration, EarthSchool	Creation		V, S, F	This spell functions as create pit, except that the pit is lined with wickedly sharp spikes along its bottom and walls. Creatures who fall into the pit take falling damage as normal, plus 2d6 points of piercing damage from the spikes. Any creature or object coming into contact with the spikes along the walls, such as a creature trying to climb out, or rope or other typical aids to climbing, takes 1d6 points of piercing damage each round they are in contact with the walls. For those willing to accept the damage incurred while climbing, the pit's walls have a Climb DC of 20.
+Stinking Cloud	Conjuration, EarthSchool	Creation	Poison	V, S, M	Stinking cloud creates a bank of fog like that created by fog cloud, except that the vapors are nauseating.
+Suggestion	Enchantment	Compulsion	Language-Dependent, Mind-Affecting	V, M	You influence the actions of the target creature by suggesting a course of activity.
+Summon Monster III	Conjuration	Summoning		V, S, F/DF	This spell functions like summon monster I, except that you can  summon one creature from the 3rd-level list, 1d3 creatures of the same kind from the 2nd-level list, or 1d4+1 creatures of the same kind from the 1st-level list.
+Water Breathing	Transmutation, WaterSchool			V, S, M/DF	The transmuted creatures can breathe water freely.
+4					
+!Open slot 4	Universal			V	NOT A SPELL. A workaround for pcgen to mark open slots.
+Acid Pit	Conjuration, EarthSchool	Creation	Acid	V, S, M, F	Creates a pit with a layer of acid on the bottom.
+Black Tentacles	Conjuration	Creation		V, S, M	This spell causes a field of rubbery black tentacles to appear, burrowing up from the floor and reaching for any creature in the area.
+Confusion	Enchantment	Compulsion	Mind-Affecting	V, S, M/DF	This spell causes confusion in the targets, making them unable to determine their actions.
+Dimensional Anchor	Abjuration			V, S	A green ray springs from your hand, any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel.
+Dimension Door	Conjuration	Teleportation		V	You instantly transfer yourself from your current location to any other spot within range.
+Emergency Force Sphere	Evocation		Force	V	Creates a hemispherical dome of force similar to Wall of Force.
+Invisibility (Greater)	Illusion	Glamer		V, S	This spell functions like invisibility, except that it doesn't end if the subject attacks.
+Magic Aura (Greater)	Illusion			V,S,F	Works as magic aura, but including willing creatures
+Master's Escape	Conjuration			V,S	You create an extradimensional link between yourself and one summoned creature you control that allows you to switch places. After casting master’s escape, you can teleport to your summoned creature’s space as a swift action, causing your summoned creature to teleport to your former space. If your summoned creature is reduced to 0 or fewer hit points before you can use this spell’s effect, you can teleport to a space that you can see within 30 feet as an immediate action. After using either of these effects, the spell ends. A summoner can target his eidolon with this spell.
+Phantasmal Killer	Illusion	Phantasm	Fear, Mind-Affecting, Emotion	V, S	You create a phantasmal image of the most fearsome creature imaginable to the subject simply by forming the fears of the subject's subconscious mind into something that its conscious mind can visualize: this most horrible beast.
+Stoneskin	Abjuration, EarthSchool		MetalSchool	V, S, M	The warded creature gains resistance to blows, cuts, stabs, and slashes.
+Summon Monster IV	Conjuration, AirSchool, EarthSchool, FireSchool, WaterSchool	Summoning		V, S, F/DF	This spell functions like summon monster I, except that you can summon one creature from the 4th-level list, 1d3 creatures of the same kind from the 3rd-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+Wall of Ice	Evocation, WaterSchool		Cold	V, S, M	This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version selected.
+5					
+!Open slot 5	Universal			V	NOT A SPELL. A workaround for pcgen to mark open slots.
+Cloudkill	Conjuration, WaterSchool	Creation	Poison	V, S	This spell generates a bank of fog, similar to a fog cloud, except that its vapors are yellowish green and poisonous.
+Feeblemind	Enchantment	Compulsion	Mind-Affecting	V, S, M	Target creature's Intelligence and Charisma scores each drop to 1.
+Hold Monster	Enchantment	Compulsion	Mind-Affecting	V, S, M/DF	This spell functions like hold person, except that it affects any living creature that fails its Will save.
+Icy Prison	Evocation		Cold	V, S	Thick ice holds and damages the target.
+Overland Flight	Transmutation, AirSchool			V, S	This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load).
+Passwall	Transmutation, EarthSchool			V, S, M	You create a passage through wooden, plaster, or stone walls, but not through metal or other harder materials.
+Summon Monster V	Conjuration, AirSchool, EarthSchool, FireSchool, WaterSchool	Summoning		V, S, F/DF	This spell functions like summon monster I, except that you can summon one creature from the 5th-level list, 1d3 creatures of the same kind from the 4th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+Teleport	Conjuration, VoidElementalSchool	Teleportation		V	This spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level.
+Wall of Force	Evocation		Force	V, S, M	A wall of force creates an invisible wall of pure force.
