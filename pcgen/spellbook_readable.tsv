@@ -44,13 +44,19 @@ Touch of the Sea	Transmutation, WaterSchool	Swim speed becomes 30 ft.
 Vanish	Illusion	This spell functions like invisibility. Like invisibility, the spell immediately ends if the subject attacks any creature.
 2		
 !Open slot 2	Universal	NOT A SPELL. A workaround for pcgen to mark open slots.
+Bear's Endurance	Transmutation	The affected creature gains greater vitality and stamina granting the subject a +4 enhancement bonus to Constitution.
+Bull's Strength	Transmutation	The subject becomes stronger granting a +4 enhancement bonus to Strength.
+Cat's Grace	Transmutation	The transmuted creature becomes more graceful, agile, and coordinated granting a +4 enhancement bonus to Dexterity.
+Eagle's Splendor	Transmutation	The transmuted creature becomes more poised, articulate, and personally forceful gaining a +4 enhancement bonus to Charisma.
 False Life	Necromancy	You harness the power of unlife to grant yourself a limited ability to avoid death.
 Flaming Sphere	Evocation, FireSchool	A burning globe of fire rolls in whichever direction you point and burns those it strikes.
+Fox's Cunning	Transmutation	The target becomes smarter granting a +4 enhancement bonus to Intelligence.
 Glitterdust	Conjuration, EarthSchool	A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell.
 Hypnotic Pattern	Illusion	A twisting pattern of subtle, shifting colors weaves through the air, fascinating creatures within it.
 Knock	Transmutation	Knock opens stuck, barred, or locked doors, as well as those subject to hold portal or arcane lock.
 Levitate	Transmutation, AirSchool	Levitate allows you to move yourself, another creature, or an object up and down as you wish.
 Mirror Image	Illusion	This spell creates a number of illusory doubles of you that inhabit your square.
+Owl's Wisdom	Transmutation	The transmuted creature becomes wiser gaining a +4 enhancement bonus to Wisdom.
 Protection from Arrows	Abjuration	The warded creature gains resistance to ranged weapons.
 Rope Trick	Transmutation	When this spell is cast upon a piece of rope from 5 to 30 feet ,long, one end of the rope rises into the air until the whole rope hangs perpendicular to the ground, as if affixed at the upper end.
 3		
