@@ -108,10 +108,10 @@ Summon Monster V	Conjuration, AirSchool, EarthSchool, FireSchool, WaterSchool	Th
 Telekinesis	Transmutation	You move objects or creatures by concentrating on them.
 Teleport	Conjuration, VoidElementalSchool	This spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level.
 Wall of Force	Evocation	A wall of force creates an invisible wall of pure force.
-6		
+6
 !Open slot 6	Universal	NOT A SPELL. A workaround for pcgen to mark open slots.
 Antimagic Field	Abjuration	An invisible barrier impervious to most magical effects surrounds you and moves with you.
+Chain Lightning	Evocation, AirSchool	This spell creates an electrical discharge that begins as a single stroke commencing from your fingertips.
 Disintegrate	Transmutation	A thin, green ray springs from your pointing finger dealing (min(40,CASTERLEVEL*2))d6 points of damage.
-Sirocco	Evocation, AirSchool, FireSchool	Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
 Stone to Flesh	Transmutation, EarthSchool	This spell restores a petrified creature to its normal state, restoring life and goods.
-Summon Monster VI	Conjuration, AirSchool, EarthSchool, FireSchool, WaterSchool	This spell functions like summon monster I, except you can summon one creature from the 6th-level list, 1d3 creatures of thesame kind from the 5th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+Tar Pool	Transmutation	Converts the top layer of the ground into hot tar.
