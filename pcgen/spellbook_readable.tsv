@@ -115,3 +115,5 @@ Chain Lightning	Evocation, AirSchool	This spell creates an electrical discharge 
 Disintegrate	Transmutation	A thin, green ray springs from your pointing finger dealing (min(40,CASTERLEVEL*2))d6 points of damage.
 Stone to Flesh	Transmutation, EarthSchool	This spell restores a petrified creature to its normal state, restoring life and goods.
 Tar Pool	Transmutation	Converts the top layer of the ground into hot tar.
+Contingency	Evocation	
+Globe of invulnerability	Abjuration	
